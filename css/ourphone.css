@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    overflow: scroll!important;
+}
+.form-top{
+    width: 75%;
+    color: #efefef;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: #4f4f4f!important;
+    border: none!important;
+    outline-style: none!important;
+}
+
+
+.form-con{
+    border-radius: 5px;
+    height: 30px;
+    background-color: #4f4f4f!important;
+    border: none;
+
+}
+.search-width{
+    padding: 5px;
+    cursor: pointer;
+}
+.carousel{
+    background-color: #000;
+    margin-bottom: 20px;
+}
+.carousel .item{
+    height: 360px;
+    background-color: #000;
+}
+.carousel .item img{
+    z-index: 0;
+    width: 100%;
+}
+.img-responsive{
+    margin: 0 auto;
+    max-width: 60%!important;
+}
+.samsung{
+    max-width: 72%!important;
+}
+#showList{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+#sth{
+    margin-bottom: 30px;
+}
+.tab-height{
+    height: 400px!important;
+}
+.alertcon{
+    z-index: 900 !important;;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../work/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../work/css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        .fa-check{
+            position: relative;
+            top:-25px;
+            left: 330px;
+            color: green;
+        }
+       .error{
+           margin-top: 5px;
+            color: #a10;
+        }
+    </style>
+</head>
+<body ng-app="myApp" ng-controller="loginController">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="wrapper">
+                <form name="signUpForm" ng-submit="loginForm()">
+                    <h2>注册</h2>
+                    <div class="form-group" ng-class="{'has-success':signUpForm.username.$valid}">
+                        <label>用户名：</label>
+                        <input type="text"
+                               name="username"
+                               class="form-control"
+                               ng-model="userData.username"
+                               ng-minlength="4"
+                               ng-maxlength="30"
+                               ng-pattern="/^[\w\d-]+[\w\d]+$/"
+                               required>
+                        <p class="error" ng-if="signUpForm.username.$error.required &&
+                                              signUpForm.username.$touched">用户名不可为空！</p>
+                        <p class="error" ng-if="signUpForm.username.$error.pattern&&
+                                              signUpForm.username.$touched">
+                            用户名只能包含大小写字母、数字和（_ -）符号且不能以符号结尾！</p>
+                        <p class="error" ng-if="(signUpForm.username.$error.minlength ||
+                                              signUpForm.username.$error.maxlength)&&
+                                              signUpForm.username.$touched">
+                            用户名字符长度应为4至10个字符。
+                        </p>
+                        <i class="fa fa-check" ng-if="signUpForm.username.$valid"></i>
+                    </div>
+
+                    <div class="form-group" ng-class="{'has-success':signUpForm.password.$valid}">
+
+                        <label>密码</label>
+                        <input type="password"
+                               name="password"
+                               class="form-control"
+                               ng-model="userData.password"
+                               ng-minlength="4"
+                               ng-maxlength="16"
+                               ng-pattern="/^[a-zA-Z0-9\,\.\;]+$/"
+                               required>
+                        <i class="fa fa-check" ng-if="signUpForm.password.$valid"></i>
+
+                        <p class="error" ng-if="signUpForm.password.$error.required
+                                             && signUpForm.password.$touched ">
+                            密码不能为空！
+                        </p>
+                        <p class="error" ng-if="signUpForm.password.$error.pattern
+                                             && signUpForm.password.$touched ">
+                            密码只能包含大小写字母、数字和（, . ; ）符号
+                        </p>
+                        <p class="error" ng-if="(signUpForm.password.$error.minlength ||
+                                              signUpForm.password.$error.maxlength)&&
+                                              signUpForm.password.$touched">
+                            密码长度应为4至16个字符。
+                        </p>
+                    </div>
+                    <div class="form-group" ng-class="{'has-success':signUpForm.password2.$valid}">
+
+                        <label>确认密码:</label>
+                        <input type="password"
+                               name="password2"
+                               class="form-control"
+                               ng-model="userData.password2"
+                               compare="userData.password"
+                               ng-pattern="/^[a-zA-Z0-9\,\.\;]+$/"
+                               required >
+                        <i class="fa fa-check" ng-if="signUpForm.password2.$valid"></i>
+
+                        <p class="error" ng-if="signUpForm.password2.$error.compare &&
+                                             signUpForm.password2.$touched ">
+                            与前面输入的不一致！
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary">注册</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../work/js/angular.min.js"></script>
+<script src="../work/js/aj-form.js"></script>
+</body>
+</html>

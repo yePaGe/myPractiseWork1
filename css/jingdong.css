@@ -1,0 +1,946 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    background-color: rgba(246,246,246,1)!important;
+    min-width: 1200px;
+    height: 100%;
+    overflow-y: scroll;
+}
+li{
+    list-style: none;
+}
+a{
+    color: rgba(153,164,188,1);!important;
+}
+a:hover{
+    text-decoration: none!important;
+    color:rgba(200,22,35,1) !important;
+    cursor: pointer;
+}
+/*nav*/
+#scrollTop{
+    position:fixed;
+    top:-70px;
+    width: 100%;
+    height:70px;
+    background-color: #fff;
+    border-bottom: 3px solid red;
+    display:block;
+    padding-top: 15px;
+    z-index: 99;
+}
+#scrollTop .logoTop{
+    height: 40px;
+    padding-left:100px ;
+    background: url("../css/picture/jingdong/logo2.png") 170px 0 no-repeat;
+}
+.topSearch{
+    position: absolute;
+    display: block;
+}
+#topPic{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: #000;
+}
+#topPic img{
+    display: block;
+    margin: 0 auto;
+}
+.top-nav{
+    z-index: 10;
+    background-color:rgba(227,228,229,1);
+    height: 30px;
+
+}
+.top-nav>.w{
+    z-index: 10;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+    height: 30px;
+}
+.top-nav .location{
+     float:left;
+    margin-left: 215px;
+    width:60px ;
+     height: 30px;
+     line-height: 30px;
+     text-align: right;
+    font-size: 12px;
+    color: rgba(153,164,188,1);
+}
+.loc{
+    text-align: center;
+    cursor: pointer;
+}
+.locationHover{
+    background-color: #fff;
+
+}
+.messChoose{
+    background-color: rgba(241,2,21,1);
+}
+
+.locationMess{
+     position: absolute;
+     top:30px;
+     left: 215px;
+     display:none;
+     z-index: 99;
+     padding: 10px;
+     width: 320px;
+    box-shadow: 0 6px 10px  rgba(0,0,0,0.2);
+     background-color: rgba(255,255,255,1);
+ }
+.locationMess ul li a{
+    text-align: center;
+    display: block;
+    float: left;
+    margin:3px 7px;
+    width: 45px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 2px;
+}
+.locCh{
+    background-color:rgba(241,2,21,1)!important;
+    border-radius: 5px!important;
+    color: white!important;
+}
+.glyphicon-map-marker{
+    color:rgba(241,2,21,1);
+}
+.top-nav .nav-right{
+    float: right;
+    width: 710px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.nav-right>ul{
+    display: block;
+    margin: 0 auto;
+    line-height: 30px;
+    height: 30px;
+}
+.nav-right>ul>li{
+   list-style: none;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    width: 70px;
+    color: rgba(153,164,188,1);
+}
+
+.nav-right>ul>.login{
+    width: 80px!important;
+}
+.signIn a{
+    color:rgba(241,2,21,1) !important;
+}
+
+.list-divider{
+    width: 10px!important;
+    float: left;
+}
+.nav > li > a{
+    padding: 5px 0!important;
+}
+.mess{
+    position: relative;
+}
+.topshow{
+    position: absolute;
+    left: 1px;
+    top:28px;
+    display:none;
+    background-color: #fff;
+    width: 230px;
+    box-shadow: 0 6px 10px  rgba(0,0,0,0.2);
+}
+.hr{
+    height:110px;
+    border-left: 15px solid #fff;
+    border-right: 15px solid #fff;
+    border-bottom: 2px solid #efefef;
+}
+.hr1{
+    height:80px;
+    border-left: 15px solid #fff;
+    border-right: 15px solid #fff;
+}
+.hr2{
+    height:180px;
+    border-left: 15px solid #fff;
+    border-right: 15px solid #fff;
+    border-bottom: 2px solid #efefef;
+
+}
+.hr3{
+    width: 400px;
+    border-left: 15px solid #fff;
+    border-bottom: 15px solid #fff;
+    border-right: 2px solid #efefef;
+}
+.hr4{
+    position: absolute;
+    top:-5px;
+    left: 1051px;
+    width: 66px;
+    height: 10px ;
+    background-color: #fff ;
+    z-index: 999
+}
+.topshow ul li a{
+    margin:8px 15px;
+    text-align:left;
+    float: left;
+    display: block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+}
+.topshow1{
+     position: absolute;
+     top: 28px;
+     left: -1050px;
+     width: 1200px;
+    display: none;
+     background-color:#fff;
+     box-shadow: 0 6px 10px  rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(227,228,229,1);
+
+ }
+.topshow2 ul{
+    width: 360px;
+
+}
+.topshow2 ul li a{
+    margin:5px 0 5px 15px;
+    text-align:left;
+    float: left;
+    display: block;
+    width: 75px;
+    height: 20px;
+    line-height: 20px;
+}
+.topshow2{
+    width: 360px;
+    height: 190px;
+    margin: 10px 0;
+    float: left;
+    border-right: 2px solid #efefef;
+    border-top: 1px solid #fff;
+}
+
+.topshow3{
+    width: 278px;
+    float: left;
+    height: 190px;
+    margin: 10px 0;
+    border-right: 2px solid #efefef;
+
+
+}
+.topshow3 ul{
+    width:278px;
+}
+.topshow3 ul li a{
+    margin:5px 0 5px 10px;
+    text-align:left;
+    float: left;
+    display: block;
+    width:75px;
+    height: 20px;
+    line-height: 20px;
+}
+.topshow4{
+    border-right: 0!important;
+
+}
+/*article*/
+article{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: 3000px;
+    border: 1px solid #000;
+}
+.logoPic{
+    background-color: #ffffff;
+    position: absolute;
+    top:-30px;
+    left: 0;
+    display: block;
+    box-shadow: 0 -12px 10px  rgba(0,0,0,0.2);
+}
+.searchCon{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 550px;
+    margin:30px auto;
+}
+.carousel-indicators{
+    width:150px!important;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 9px;
+}
+
+
+.red {
+    border: 1px solid rgba(217, 83, 79, 1);
+}
+input:focus{
+    outline: none!important;
+    border-color: rgba(217,83,79,1)!important;
+    box-shadow: none!important;
+}
+.searchList>li{
+    float: left;
+    padding: 5px;
+    font-size: 12px;
+    color: rgba(153,164,188,1);
+
+}
+
+.shoppingCartList{
+    position: absolute;
+    right:0;
+    margin-top:30px;
+    margin-right: 120px;
+    width:180px;
+    height: 35px;
+    line-height: 30px;
+    background-color: #fff;
+    border: 1px solid rgba(222,222,220,1);
+    text-align: center;
+    color:rgba(241,2,21,1);
+    cursor: pointer;
+}
+.cartCol{
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    color:rgba(241,2,21,1);
+
+}
+.goodsList{
+    position: relative;
+    width: 190px;
+    background-color: rgba(110,101,104,1);
+    padding:15px 10px 0 10px;
+    margin-top: 135px;
+    margin-right: 10px!important;
+    float: left;
+}
+
+.goodsList li{
+    margin: 0;
+    height: 30px;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+.goodsList li a{
+    margin: 0 3px;
+    color: rgba(255,255,255,1);
+}
+.goodsList li a:hover{
+    text-decoration: none;
+    color:rgba(200,22,35,1);
+    cursor: pointer;
+}
+.showCon{
+    position: absolute;
+    top:0;
+    left: 180px;
+    display:none;
+    z-index:88;
+    width: 1020px;
+    background-color: #efefef;
+}
+.showCon ul{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.showCon ul li{
+    background-color:rgba(110,101,104,1) ;
+    float: left;
+    margin: 10px 5px;
+    padding: 3px;
+}
+.showCon dd{
+    width: 75px;
+    float: left;
+    height: 25px;
+    margin: 0 0 5px 15px;
+}
+.showCon dd a{
+     color: rgba(110,101,104,1);
+ }
+.showCon dt{
+    width: 700px;
+    float: right;
+    margin-bottom: 5px;
+}
+.showCon dt a{
+    color: rgba(153,164,188,1);
+    margin: 0 10px ;
+ }
+.showCon dl{
+    width:800px;
+    height: auto;
+    margin: 3px 5px;
+    float: left;
+    border-bottom:1px solid rgba(153,164,188,0.3) ;
+}
+.slideCon{
+    float: left;
+    width: 790px;
+    margin-top: 105px;
+    z-index: 99;
+}
+.goodsTitle li{
+     float: left;
+     font-size: 18px;
+     width: 80px;
+     text-align: center;
+     font-family: "黑体", "Times New Roman";
+}
+.goodsTitle li a{
+    color: rgba(85,85,128,1);
+}
+.goodsTitle li a:hover{
+    text-decoration: none;
+    color:rgba(200,22,35,1);
+    cursor: pointer;
+}
+.carousel{
+    margin-top: 30px;
+    width: 789px!important;
+    height: 340px!important;
+}
+.item img{
+    position: relative;
+    top:0;
+    display: block;
+    width: 100%!important;
+    height:340px!important;
+}
+
+.right-nav{
+    background-color: #fff;
+    position: relative;
+    margin-top: 135px;
+    width: 200px;
+    float: right;
+
+}
+.signUp{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 200px;
+    border-bottom: 2px solid rgba(227,228,229,1);
+    font-size: 12px;
+}
+.signUp .photo{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 20px 0 0 20px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url("../css/picture/jingdong/circle.png")  -70px 0 no-repeat;
+    z-index: 5;
+}
+.signUp img {
+    position: relative;
+    top: 0;
+    left: -70px;
+    width: 50px;
+    margin: 20px;
+}
+.signUp .photoMess{
+    background-color: #fff;
+    position:absolute;
+    top: 0;
+    right: 0;
+    padding-left: 10px;
+    padding-top: 20px;
+    float: right;
+    width: 120px;
+    height: 100px;
+}
+.signUp .photoBtn{
+    background-color: #fff;
+    position: relative;
+    top:0;
+    left: 0;
+    right: 0;
+    padding:5px 5px;
+    display: block;
+    width: 100%;
+    height: 45px;
+
+}
+.signUp .photoBtn .pBtn{
+    height: 25px;
+    width: 75px;
+    background: #fff;
+    color: red;
+    border: 2px solid red;
+    display: block;
+    float: left;
+    margin: 0 8px;
+}
+.signUp .photoBtn .pBtn:hover{
+    background-color: red;
+    color: white;
+
+}
+.announcement{
+    position: relative;
+    top:0;
+    left: 0;
+    height: 130px;
+    border-bottom: 1px solid rgba(227,228,229,1);
+}
+.announcement ul li{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left:5px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.announcement ul{
+    height: 25px;
+    border-bottom: 1px solid rgba(227,228,229,1);
+}
+#move{
+    position: absolute;
+    top:22px;
+    left: 10px;
+    width: 28px;
+    background-color: red;
+    height: 4px;
+}
+.gonggao,.chuxiao{
+    position: absolute;
+    top:30px;
+    left: 0;
+    display: block;
+    padding-left: 10px;
+    background-color: #fff;
+    width: 200px;
+    margin-top: 10px;
+}
+.announcement div a{
+    font-size: 12px;
+}
+.huafei{
+    background: url("../css/picture/jingdong/btnpic.png") 12px -80px no-repeat;
+}
+.jipiao{
+    background: url("../css/picture/jingdong/btnpic.png") 12px -37px no-repeat;
+}
+.hotel{
+    background: url("../css/picture/jingdong/btnpic.png") -75px -35px no-repeat;
+}
+.game{
+    background: url("../css/picture/jingdong/btnpic.png") -75px 10px no-repeat;
+}
+.qiye{
+    background: url("../css/picture/jingdong/btnpic.png") -75px -36px no-repeat;
+}
+.jiayou{
+    background: url("../css/picture/jingdong/btnpic.png") 10px 10px no-repeat;
+}
+.movie{
+    background: url("../css/picture/jingdong/btnpic.png") -32px -36px no-repeat;
+}
+.huochepiao{
+    background: url("../css/picture/jingdong/btnpic.png") -75px -80px no-repeat;
+}
+.zhongchou{
+    background: url("../css/picture/jingdong/btnpic.png") -120px 10px no-repeat;
+}
+.licai{
+    background: url("../css/picture/jingdong/btnpic.png") -120px -36px no-repeat;
+}
+.persent{
+    background: url("../css/picture/jingdong/btnpic.png") -120px -80px no-repeat;
+}
+.baitiao{
+    background: url("../css/picture/jingdong/btnpic.png") -32px 10px no-repeat;
+}
+.chooseBtn .row .col-xs-3{
+    height: 70px;
+    text-align: center;
+    padding: 45px 0 5px 0;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(227,228,229,1);
+    border-right: 1px solid rgba(227,228,229,1);
+}
+.chooseBtn .row .col-xs-3 a{
+    color: #000!important;
+    display: block;
+    height: 24px!important;
+    background-color: #fff;
+}
+.chooseBtn .row .col-xs-3 a:hover{
+    text-decoration: none;
+    color:rgba(200,22,35,1)!important;
+}
+.cm img{
+    margin: 5px 0 0 0;
+}
+/*articlemaincontain*/
+.jingdongmiaosha{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 620px;
+    width: 1200px;
+}
+.jingdongmiaosha .jdmshTop{
+    position: relative;
+    width: 1200px;
+    background:url("../css/picture/jingdong/redtop.png") -1px 0 no-repeat;
+    background-size: 100%;
+    height: 60px;
+}
+.mshJiao{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background:url("../css/picture/jingdong/icon.png")-195px -50px no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.mshClockPic{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    display: block;
+    background:url("../css/picture/jingdong/icon.png")0 -30px no-repeat;
+    width: 30px;
+    height:55px;
+}
+.mshWord{
+    position: absolute;
+    top: 0;
+    left: 80px;
+    display: block;
+    width: 550px;
+}
+.mshWord h3{
+    margin-top: 15px!important;
+    color: #fff!important;
+}
+.mshWord h3 small{
+    font-size: 14px!important;
+    color: #fff!important;
+}
+.mshaClock{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    float: right;
+    width: 350px;
+}
+.mshaClock p span small{
+    color: #fff!important;
+    font-size: 14px;
+    margin-top: 15px;
+    display: block;
+}
+.mshaClock p span{
+    float: left;
+}
+.hour,.minute,.second,.dot{
+    font-size: 28px!important;
+    text-align: center;
+}
+.dot{
+    color: #fff!important;
+
+}
+.hour,.minute,.second{
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    width: 50px;
+    height: 35px;
+    display: block;
+    float: left;
+    margin: 5px;
+    color: rgba(224,18,34,1)!important;
+
+}
+/*goodshow*/
+.goodShow{
+    background-color: #fff;
+    height: 250px;
+}
+.goodShow .col-xs-3{
+    margin-top: 10px;
+    text-align: center;
+    border-right:1px solid rgba(227,228,229,1) ;
+}
+.goods .pic{
+    position: relative;
+    height: 140px;
+}
+.goods .pic img{
+    position: relative;
+    top: 10px;
+}
+.box-shadow{
+    height: 15px;
+    width: 200px;
+    background: url("../css/picture/jingdong/icon.png") 15px -10px no-repeat;;
+}
+.goodShow .row .col-xs-2{
+    padding: 10px;
+}
+/*fenleizhanshi*/
+.goodsFenLeiZhanShi{
+    position: relative;
+    top:0;
+    left: 0;
+    margin-top: 10px;
+    border: 1px solid red;
+    height: 400px;
+}
+.flzhsh{
+    padding: 0!important;
+}
+.flzhshTop{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 60px;
+}
+
+
+.lefticon{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 20px;
+    height: 20px;
+}
+.haohuo::after{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 0;
+    content: "";
+    display: block;
+    border: 10px solid  rgba(61,142,151,1);
+    border-color:rgba(246,246,246,1) transparent transparent rgba(246,246,246,1);
+}
+.haohuo{
+    background: rgba(61,142,151,1);
+    background-image: linear-gradient(90deg,#4998a1,#2e828b);
+    margin-right: 5px;
+}
+
+.left1{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 20px;
+    height: 20px;
+    background: url("picture/jingdong/icon.png") -194px -100px no-repeat;
+    z-index: 10;
+
+}
+
+.youpin::after{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 0;
+    content: "";
+    display: block;
+    border: 10px solid  rgba(110,60,129,1);
+    border-color:rgba(246,246,246,1) transparent transparent rgba(246,246,246,1);
+}
+.youpin{
+    background-image: linear-gradient(90deg,#76488e,#662d72);
+    background: rgba(110,60,129,1);
+    margin:0 5px;
+}
+
+.middle1{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 20px;
+    height: 20px;
+    background: url("picture/jingdong/icon.png") -5px -163px no-repeat;
+    z-index: 10;
+
+}
+
+.pxb::after{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 0;
+    content: "";
+    display: block;
+    border: 10px solid  rgba(230,106,5,1);
+    border-color:rgba(246,246,246,1) transparent transparent rgba(246,246,246,1);
+}
+.pxb {
+    background-image: linear-gradient(90deg,#e77005,#e45d04);
+    background: rgba(230, 106, 5, 1);
+    margin-left: 5px;
+}
+.right1{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 20px;
+    height: 20px;
+    background: url("picture/jingdong/icon.png") -195px -3px no-repeat;
+    z-index: 10;
+}
+.flzhshText{
+    position: absolute;
+    top:0;
+    left: 0;
+    margin: 10px auto 10px 28px;
+    color: #fff!important;
+    font-size: 28px!important;
+}
+.flzhshText0{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin: 30px 20px 10px auto;
+}
+.flzhshText0 a{
+    color: #fff!important;
+    font-size: 14px!important;
+}
+.flzhshText0 a:hover{
+     text-decoration: none;
+     color:rgba(200,22,35,1)!important;
+ }
+/*footer*/
+footer{
+    height: 500px;
+    width: 100%;
+    background-color:rgba(227,228,229,1);
+}
+.foot{
+    margin: 0 auto;
+    width: 1200px;
+}
+.f1{
+    margin: auto 30px;
+    display: block;
+    padding: 30px 0 20px 0;
+    font-size: 18px;
+}
+.f1 div{
+    height: 44px!important;
+    line-height: 50px!important;
+    padding: 0 0 0 45px;
+}
+.duo{
+    background: url("../picture/jingdong/bottom-icon.png") no-repeat 5px 2px;
+}
+.kuai{
+    background: url("../picture/jingdong/bottom-icon.png") no-repeat 5px -42px;
+}
+.hao{
+    background: url("../picture/jingdong/bottom-icon.png") no-repeat 5px -85px;
+}
+.sheng{
+    background: url("../picture/jingdong/bottom-icon.png") no-repeat 5px -128px;
+}
+.divider{
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.col-xs-2{
+    font-size: 12px;
+    color: rgba(153,164,188,1);
+    text-align: center;
+    width: 15%;
+    margin: 0 auto;
+
+}
+.col-xs-2 li{
+    margin: 5px;
+
+}
+.map{
+    width: 200px;
+    height: 150px;
+    background:url("../picture/jingdong/ico_footer.png") no-repeat 0 0;
+;
+    text-align: left!important;
+}
+.message{
+    position: relative;
+    margin-bottom: 20px;
+}
+.message div ul li{
+    float: left;
+    color: rgba(153,164,188,1);
+    text-align: center;
+    font-size: 12px;
+    margin-right:5px ;
+}
+
+.message ul{
+    display: block;
+    height: 16px;
+}
+.footerPic{
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    padding: 0 50px;
+}
+.footerPic a{
+    display: block;
+    width: 100px;
+    height: 35px;
+    float: left;
+    margin: 0 35px;
+}
+.pic1{
+    background: url("../picture/jingdong/ico_footer.png") no-repeat 0 -150px;
+}.pic2{
+    background: url("../picture/jingdong/ico_footer.png") no-repeat -105px -150px;
+}.pic3{
+    background: url("../picture/jingdong/ico_footer.png") no-repeat 0 -183px;
+}.pic4{
+    background: url("../picture/jingdong/ico_footer.png") no-repeat -105px -183px;
+}.pic5{
+    background: url("../picture/jingdong/ico_footer.png") no-repeat 0 -215px;
+}.pic6{
+    background: url("../picture/jingdong/ico_footer.png") no-repeat -105px -215px;
+}

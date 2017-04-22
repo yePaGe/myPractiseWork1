@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"宋体","Times New Roman";
+
+}
+
+body{
+    max-width:100%;
+    width: 100%;
+    height:100%;
+    background-color: rgba(240,240,240,1);
+
+}
+article{
+    overflow-x: hidden;
+    overflow-y:scroll;
+    height:100%;
+
+}
+
+a{
+    color:rgba(0,0,0,1)!important;
+    text-decoration: none;
+    font-size:20px;
+    display: block;
+    text-underline: none;
+}
+p{
+    font-size:16px ;
+    line-height: 100%;
+}
+br{
+    line-height: 100%;
+}
+li{
+    list-style: none;
+}
+header,footer{
+    z-index: 10;
+}
+/*article*/
+.loginWin{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.topLine{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:1.2rem;
+    line-height:1.1rem;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0.45rem;
+    color:  rgba(130,130,130,1);
+    border-bottom: 1px solid  rgba(140,140,140,0.5);
+    background-color:rgba(250,250,250,1);
+
+}
+.topLine img{
+    margin: 0.34rem 0.35rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    float: right;
+}
+.titleIcon {
+    height: 1.1rem ;
+    line-height: 1rem;
+    text-align: center;
+    margin:1.6rem auto 0.5rem auto;
+}
+.titleIcon p{
+    color: #f40;
+    font-size:1.3rem;
+}
+
+.loginContainer{
+    position: relative;
+    overflow: hidden;
+    margin: 1.0rem auto 0 auto;
+    height: 5rem;
+}
+.accounter0,.accounter{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    line-height: 1.2rem;
+    height: 1.4rem;
+    background-color: #fff;
+    margin-top: 5px ;
+    border:3px solid rgba(240,240,240,1);
+    tab-index: -1;
+
+
+}
+.accounter0 img{
+    margin: 0.3rem 0.35rem;
+    width: 0.6rem;
+    height: 0.7rem;
+}
+.accounter img{
+    margin: 0.3rem 0.35rem;
+    width: 0.6rem;
+    height: 0.7rem;
+}
+.acc{
+    position: relative;
+    margin: 0.45rem 0.35rem;
+    width: 0.5rem;
+    height: 0.55rem;
+    float: right;
+    display: none;
+    border: none!important;
+    background: url("picture/close.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.accounterInput{
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    vertical-align: middle;
+    margin:2px auto;
+    width: 70%;
+    background-color: #fff;
+    line-height: 1.3rem;
+    height: 1.2rem;
+    font-size:0.45rem;
+    border: none;
+    outline: none;
+
+}
+
+.loginBtn{
+    position:relative;
+    margin: 0.35rem auto;
+    overflow: hidden;
+    width: 80%;
+    line-height: 1.2rem;
+    height: 1.4rem;
+    background-color:rgba(240,68,0,1);
+    border-top: 4px solid rgba(240,240,240,1);
+}
+.loginBtnInput{
+    position: absolute;
+    left:0;
+    right: 0;
+    vertical-align: middle;
+    margin: 3px auto;
+    width: 70%;
+    line-height: 1.3rem;
+    height: 1.2rem;
+    font-size:0.5rem;
+    font-family:"黑体","Times New Roman"!important;
+    color: #fff;
+    border: none!important;
+    outline: none;
+    background-color:rgba(240,68,0,1)!important;
+
+}
+
+.bottomList{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 45%;
+    overflow: hidden;
+    margin:20px auto ;
+    text-align: center;
+}
+.bottomList span{
+    float: left;
+}
+.bottomList span a{
+    font-size:0.35rem;
+    color: #a14c09!important;
+    text-decoration: underline;
+
+}
+
+/*comfirm*/
+.comfWin,.alertWin{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: none;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    background-color: rgba(147,147,147,0.6);
+}
+.comfCon,.alertCon{
+    position: relative;
+    width: 6rem;
+    height:3rem;
+    text-align: center;
+    background-color: rgba(147,147,147,1);
+}
+.comfCon p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 6rem;
+    height: 1rem;
+    margin-top:0.5rem ;
+    text-align: center;
+    line-height: 0.9rem!important;
+    font-size: 0.4rem!important;
+}
+.alertMess{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 6rem;
+    height: 1rem;
+    margin-top:0.5rem ;
+    text-align: center;
+    line-height: 0.9rem!important;
+    font-size: 0.4rem!important;
+}
+.comfBtn{
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+    margin: 2rem auto 0 auto;
+    width: 5rem;
+    height:1rem;
+}
+.comfBtn input{
+    width: 2rem;
+    margin: 0 15px;
+    font-size: 0.35rem;
+    line-height: 0.4rem;
+    height: 0.7rem;
+    float: left;
+    border: none;
+}
+.alertBtn{
+    width: 2rem;
+    margin: 2rem 2rem 0 2rem;
+    font-size: 0.35rem;
+    line-height: 0.4rem;
+    height: 0.7rem;
+    float: left;
+    border: none;
+}
+
+/*footer*/
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    border: none;
+    background-color: rgba(255,80,0,1);
+}
+.foot{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+
+}
+.foot li{
+    width: 2rem;
+    height: 80px;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+}
+.foot li a{
+    height: 80px;
+}
+.foot li a img{
+    width: 40px;
+    height: 40px;
+}
+.foot li a span{
+    display: block;
+    color: #efefef;
+}
+.inputMess{
+    display: block;
+}

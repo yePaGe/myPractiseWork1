@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=0.5,maximum-scale=0.5,minimum-scale=0.5,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>我的淘宝</title>
+    <link href="css/mytao.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/mytao.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 10 + 'px';
+            document.documentElement.style.width = "100%";
+            document.documentElement.style.height = "100%";
+            document.documentElement.style.overflow = "hidden";
+        });
+    </script>
+</head>
+<body>
+<div class="loginWin">
+    <div class="topLine">
+        淘宝帐号登录
+        <img class="choose" src="picture/close.png">
+    </div>
+    <div class="titleIcon">
+        <p style="font-family: 汉真广标!important;">淘宝网</p>
+    </div>
+    <div class="loginContainer">
+
+            <form>
+                <div class="accounter">
+                <img class="acc1" src="picture/account.png">
+                <input class="accounterInput" type="text" placeholder="请输入你的帐号!">
+                <input type="button" class="acc" >
+
+
+
+        </div>
+        <div class="accounter" >
+
+                    <img class="pass1" src="picture/lock.png">
+                    <input class="accounterInput" type="password" placeholder="请输入你的密码">
+                    <input type="button"  class="acc">
+
+        </div>
+        <div class="loginBtn">
+
+                <a href="http://localhost:63342/practise/work/taohome.html?_ijt=3efnm3shdf4naj8qvup535bhni">
+                    <input class="loginBtnInput" type="button" value="登&nbsp;&nbsp;&nbsp;&nbsp;录">
+                </a>
+
+        </div>
+            </form>
+    </div>
+    <div class="bottomList">
+
+        <span> <a href="#">去注册？</a></span>
+        <span>&nbsp;</span>
+        <span><a href="#">忘记密码？</a></span>
+
+    </div>
+
+</div>
+
+<div class="alertWin">
+    <div class="alertCon">
+        <p class="alertMess"></p>
+        <input class="alertBtn" type="button" value="知道了！"/>
+    </div>
+</div>
+
+<div class="comfWin">
+    <div class="comfCon">
+        <p>亲，真的要离开吗？</p>
+        <div class="comfBtn">
+            <a href="http://localhost:63342/taohome.html" >
+                <input type="button" value="离开"/>
+            </a>
+            <input type="button" value="返回"/>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
