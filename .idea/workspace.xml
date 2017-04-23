@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7455e41-f154-4e77-92f6-66fe9beb14c8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jingdong.css" afterPath="$PROJECT_DIR$/css/jingdong.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jingdong.html" afterPath="$PROJECT_DIR$/jingdong.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jingdong.js" afterPath="$PROJECT_DIR$/js/jingdong.js" />
@@ -36,9 +37,11 @@
       <file leaf-file-name="jingdong.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jingdong.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="1609" column="40" lean-forward="false" selection-start-line="1609" selection-start-column="40" selection-end-line="1609" selection-end-column="40" />
+            <state relative-caret-position="252">
+              <caret line="1524" column="24" lean-forward="false" selection-start-line="1524" selection-start-column="24" selection-end-line="1524" selection-end-column="57" />
               <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -75,7 +78,7 @@
       <file leaf-file-name="taohome.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/taohome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2688">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -85,29 +88,35 @@
       <file leaf-file-name="ourPhone.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ourPhone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4004">
+            <state relative-caret-position="-4172">
               <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jingdong.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jingdong.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/jingdong.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="944" column="29" lean-forward="false" selection-start-line="944" selection-start-column="29" selection-end-line="944" selection-end-column="29" />
+            <state relative-caret-position="844">
+              <caret line="947" column="7" lean-forward="false" selection-start-line="947" selection-start-column="1" selection-end-line="947" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jingdong.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jingdong.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/jingdong.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="224" column="49" lean-forward="true" selection-start-line="224" selection-start-column="49" selection-end-line="224" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="324">
+              <caret line="180" column="0" lean-forward="true" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+              <folding>
+                <element signature="e#338#597#0" expanded="false" />
+                <element signature="e#634#1198#0" expanded="false" />
+                <element signature="e#1223#1714#0" expanded="false" />
+                <element signature="e#1746#2325#0" expanded="false" />
+                <element signature="n#!!block;n#timeCount#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,6 +140,9 @@
       <find>haoh</find>
       <find>chev</find>
       <find>yp</find>
+      <find>left</find>
+      <find>ann</find>
+      <find>choose</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,9 +195,9 @@
         <option value="$PROJECT_DIR$/shoppingapp.html" />
         <option value="$PROJECT_DIR$/ourphone.css" />
         <option value="$PROJECT_DIR$/ourPhone.html" />
+        <option value="$PROJECT_DIR$/css/jingdong.css" />
         <option value="$PROJECT_DIR$/jingdong.html" />
         <option value="$PROJECT_DIR$/js/jingdong.js" />
-        <option value="$PROJECT_DIR$/css/jingdong.css" />
       </list>
     </option>
   </component>
@@ -217,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,6 +271,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -405,11 +417,12 @@
       <workItem from="1492878325348" duration="658000" />
       <workItem from="1492879860116" duration="40000" />
       <workItem from="1492913294335" duration="21683000" />
+      <workItem from="1492951677894" duration="7311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160477000" />
+    <option name="totallyTimeSpent" value="167788000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,8 +434,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2061012" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -464,7 +477,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/360zhuye.html" />
     <entry file="file://$PROJECT_DIR$/css/360zhuye.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -592,27 +604,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/taohome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ourPhone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4004">
+        <state relative-caret-position="-4172">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/taohome.js">
+    <entry file="file://$PROJECT_DIR$/css/jingdong.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2688">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="844">
+          <caret line="947" column="7" lean-forward="false" selection-start-line="947" selection-start-column="1" selection-end-line="947" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jingdong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="1609" column="40" lean-forward="false" selection-start-line="1609" selection-start-column="40" selection-end-line="1609" selection-end-column="40" />
+        <state relative-caret-position="252">
+          <caret line="1524" column="24" lean-forward="false" selection-start-line="1524" selection-start-column="24" selection-end-line="1524" selection-end-column="57" />
           <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -647,17 +677,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jingdong.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="224" column="49" lean-forward="true" selection-start-line="224" selection-start-column="49" selection-end-line="224" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/jingdong.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="944" column="29" lean-forward="false" selection-start-line="944" selection-start-column="29" selection-end-line="944" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="324">
+          <caret line="180" column="0" lean-forward="true" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding>
+            <element signature="e#338#597#0" expanded="false" />
+            <element signature="e#634#1198#0" expanded="false" />
+            <element signature="e#1223#1714#0" expanded="false" />
+            <element signature="e#1746#2325#0" expanded="false" />
+            <element signature="n#!!block;n#timeCount#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
