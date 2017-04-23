@@ -1,9 +1,12 @@
 $(function () {
   timeCount();
+  var duration = 2000;
+    rotate(duration);
    // srollShow();
+    var $fxhhPhoto = $(".haohuoLi");
+   // alert($fxhhPhoto.eq(0).find("p").html());
+    slideRight($fxhhPhoto);
 });
-
-
     function timeCount() {
         var today = new Date(),
             lastday = new Date("2017/4/25,20:20:40"),
@@ -124,19 +127,55 @@ $(function () {
     });
     $(".goods").on({
         mouseenter:function () {
-            $(this).children(".pic").children("img").stop().animate({
+            $(this).find("img").stop().animate({
                 "top":"-10px"
             },500)
         },
         mouseleave:function () {
-            $(this).children(".pic").children("img").stop().animate({
+            $(this).find("img").stop().animate({
                 "top":"0"
             },500)
         }
     });
+   /* $(".haohuoLi").on({
+        mouseenter:function () {
+            $(this).find("img").stop().animate({
+                "padding-right":"15px"
+            },500)
+        },
+        mouseleave:function () {
+            $(this).find("img").stop().animate({
+                "padding-right":"0"
+            },500)
+        }
+    });
+$(".haohuoLi").on({
+    mouseenter:function () {
+        $(this).find(".haohuoPic").animate({
+            "padding-right":"15px"
+        },500)
+    },  mouseleave:function () {
+        $(this).find(".haohuoPic").animate({
+            "padding-right":"0"
+        },500)
+    }
+});*/
+ function slideRight($ele) {
+     $ele.hover(function () {
+         $(this).find(".haohuoPic").animate({
+             "padding-right":"10px"
+         },500)
+     },function () {
+         $(this).find(".haohuoPic").animate({
+             "padding-right":"0"
+         },500)
+     }
+
+     )
+ }
     $(window).scroll(function (event) {
         var hhh= $(window).scrollTop();
-        console.log(hhh);
+        //console.log(hhh);
         if(hhh>300){
             $("#scrollTop").stop().animate({
                 "top":"0"
@@ -148,6 +187,79 @@ $(function () {
 
         }
     });
+
+
+ function rotate(duration) {
+     var $lTurn = $(".picleftBtn"),
+         $rTurn = $(".picrightBtn"),
+         $slide = $(".ypzhjPhoto>div>ul>li"),
+         $ulLength = ($slide.length)/2,
+         $chooseBtn = $(".chooseBtn>ul>li"),
+         index=0;
+        // alert($ulLength);
+       //$slide.get(1).css("display","block");
+    //alert($picslide[0].className);
+     $rTurn.on("click",function () {
+         index++;
+         if(index>$ulLength-1){
+             index=0;
+         }
+        // alert(index);
+         turnTo(index);
+     });
+     $lTurn.on("click",function () {
+         index--;
+         if(index<0){
+             index=$ulLength-1;
+         }
+         //alert(index);
+         turnTo(index);
+     });
+     $chooseBtn.each(function () {
+         var _index = $(this).index();
+         $(this).click(function() {
+             turnTo(_index);
+         })
+     });
+     function turnTo(e) {
+         $slide.siblings().css("display","none");
+         $slide.eq(e).css("display","block");
+        // alert(e);
+        /* if(e==0){
+             $(".ypzhjPhoto>div>ul>li:eq(0)").css("display","block");
+             $(".ypzhjPhoto>div>ul>li:eq(1)").css("display","none");
+             $(".ypzhjPhoto>div>ul>li:eq(2)").css("display","none");
+         }else if(e==1){
+             $(".ypzhjPhoto>div>ul>li:eq(0)").css("display","none");
+             $(".ypzhjPhoto>div>ul>li:eq(1)").css("display","block");
+             $(".ypzhjPhoto>div>ul>li:eq(2)").css("display","none");
+         }else if(e==2){
+             $(".ypzhjPhoto>div>ul>li:eq(0)").css("display","none");
+             $(".ypzhjPhoto>div>ul>li:eq(1)").css("display","none");
+             $(".ypzhjPhoto>div>ul>li:eq(2)").css("display","block");
+         }*/
+         $chooseBtn.removeClass("chosen");
+         $chooseBtn.eq(e).addClass("chosen");
+     }
+     var timer = setInterval(function () {
+         $rTurn.click();
+     },duration);
+
+     stopTimer($lTurn);
+     stopTimer($rTurn);
+     stopTimer($chooseBtn);
+
+     function stopTimer($ele) {
+         $ele.hover(function () {
+             clearInterval(timer);
+         },function () {
+             timer = setInterval(function () {
+                 $rTurn.click();
+             },duration);
+         })
+     }
+
+ }
 
 
 
