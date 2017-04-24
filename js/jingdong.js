@@ -3,19 +3,25 @@ $(function () {
   timeCount();
 
   //图片轮播
-  var duration = 2000;
-    rotate(duration);
+  var durationOne = 2000,
+      $slideOne = $(".ypzhjshow>ul>li"),
+      $chosenBtnOne= $(".chooseBtnOne>ul>li");
+  var durationTwo = 2000,
+      $slideTwo = $(".zhiboshow>ul>li"),
+      $chosenBtnTwo= $(".chooseBtnTwo>ul>li");
+        rotate($slideOne,durationOne,$chosenBtnOne);
+        rotate($slideTwo,durationTwo,$chosenBtnTwo);
 
-    //图片左移动；
+ //图片左移动；
     var $quanCon = $(".quanCon");
     slideLeft($quanCon);
 
-    //图片右移动；
+  //图片右移动；
     var $fxhhPhoto = $(".haohuoLi");
    // alert($fxhhPhoto.eq(0).find("p").html());
     slideRight($fxhhPhoto);
 
-    //盒子滚动条移动
+  //盒子滚动条移动
    // alert($("#left>li:eq(0)").width());
     var $anouncement = $("#left>li");
     var $pxbPhoto = $(".pxbPhoto>ul>li");
@@ -233,30 +239,28 @@ function slideLeft($ele) {
     )
 }
 
- function rotate(duration) {
+ function rotate($slide,duration,$chooseBtn) {
      var $lTurn = $(".picleftBtn"),
          $rTurn = $(".picrightBtn"),
-         $slide = $(".ypzhjshow>ul>li"),
-         $ulLength = $slide.length,
-         $chooseBtn = $(".chooseBtn>ul>li"),
+         $ulLength = $slide.length-1,
          index=0;
-        // alert($ulLength);
+        //alert($ulLength);
        //$slide.get(1).css("display","block");
     //alert($picslide[0].className);
      $rTurn.on("click",function () {
          index++;
-         if(index>$ulLength-1){
+         if(index>$ulLength){
              index=0;
          }
-        // alert(index);
+       // console.log(index);
          turnTo(index);
      });
      $lTurn.on("click",function () {
          index--;
          if(index<0){
-             index=$ulLength-1;
+             index=$ulLength;
          }
-         alert(index);
+       //console.log(index);
          turnTo(index);
      });
      $chooseBtn.each(function () {

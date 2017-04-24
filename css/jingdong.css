@@ -271,7 +271,6 @@ article{
     position: relative;
     width: 1200px;
     margin: 0 auto;
-    height: 3000px;
     border: 1px solid #000;
 }
 .logoPic{
@@ -927,16 +926,16 @@ input:focus{
     cursor: pointer;
 }
 
-.chooseBtn{
+.chooseBtnOne{
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 70px;
+    width: 100px;
     height: 15px;
 }
-.chooseBtn ul li{
+.chooseBtnOne ul li{
    cursor: pointer;
     margin: 4px 6px;
     background-color:#ccc;
@@ -945,7 +944,7 @@ input:focus{
     height:8px;
     display: block!important;
 }
-.chooseBtn ul li.chosen{
+.chooseBtnOne ul li.chosen{
     background-color: red;
 }
 
@@ -1103,6 +1102,84 @@ input:focus{
     color: white;
 
 }
+/*grayLine*/
+.grayLine{
+    position:relative;
+    left: 0;
+    width: 100%;
+    background-color: rgba(224,224,224,1);
+}
+.grayLineCon{
+    position:relative;
+    top:0;
+    width: 1200px;
+    margin: 0 auto;
+}
+.grayLineCon .row .col-xs-4{
+    padding: 0!important;
+    margin: 0!important;
+}
+
+/*xiangpinzhi*/
+.dotted{
+    margin-top: 30px;
+    border-top: 3px dotted #ccc;
+}
+
+/*xiangpinzhipicture*/
+.zhiboPhoto{
+    position:relative;
+    top: 0;
+    right: 0;
+}
+.zhiboshow{
+    height: 250px;
+}
+.zhiboshow ul li img{
+    position: absolute;
+    top:0;
+    right: 0;
+    width:395px;
+    height: 340px;
+}
+.chooseBtnTwo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+    height: 15px;
+}
+.chooseBtnTwo ul li{
+    cursor: pointer;
+    margin: 4px 6px;
+    background-color:#ccc;
+    border-radius: 10px;
+    width: 8px!important;
+    height:8px;
+    float: left;
+    display: block!important;
+}
+.chooseBtnTwo ul li.chosen{
+    background-color: red;
+}
+.picleftBtnTwo{
+    z-index: 50;
+}
+ .pinzhiPic{
+     position: relative;
+     padding:0!important ;
+ }
+ .pinzhiPic ul{
+     margin-right: 10px!important;
+ }
+ .pinzhiPic img{
+     position:relative;
+     left: 0;
+     top:0;
+     width: 100%;
+     margin-bottom: 10px;
+ }
 /*footer*/
 footer{
     height: 500px;

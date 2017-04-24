@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7455e41-f154-4e77-92f6-66fe9beb14c8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jingdong.css" afterPath="$PROJECT_DIR$/css/jingdong.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jingdong.html" afterPath="$PROJECT_DIR$/jingdong.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jingdong.js" afterPath="$PROJECT_DIR$/js/jingdong.js" />
@@ -33,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jingdong.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jingdong.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jingdong.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="1860" column="35" lean-forward="true" selection-start-line="1860" selection-start-column="35" selection-end-line="1860" selection-end-column="35" />
+            <state relative-caret-position="201">
+              <caret line="1953" column="42" lean-forward="false" selection-start-line="1953" selection-start-column="33" selection-end-line="1953" selection-end-column="42" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -47,7 +48,6 @@
                 <element signature="n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -58,7 +58,6 @@
                 <element signature="n#div#2;n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -90,6 +89,7 @@
                 <element signature="n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#li#4;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -104,41 +104,46 @@
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#2;n#div#2;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#4;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#4;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#2;n#div#4;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#a#0;n#div#0;n#div#0;n#div#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#123529#123535#0" expanded="true" />
-                <element signature="e#123535#123541#0" expanded="true" />
-                <element signature="e#123541#123547#0" expanded="true" />
-                <marker date="1493013880892" expanded="false" signature="113169:115164" ph="..." />
-                <marker date="1493013880892" expanded="false" signature="119360:121154" ph="..." />
-                <marker date="1493013880892" expanded="false" signature="121241:123069" ph="..." />
+                <element signature="e#123533#123539#0" expanded="true" />
+                <element signature="e#123539#123545#0" expanded="true" />
+                <element signature="e#123545#123551#0" expanded="true" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jingdong.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jingdong.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/jingdong.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="222" column="10" lean-forward="false" selection-start-line="222" selection-start-column="10" selection-end-line="222" selection-end-column="10" />
+            <state relative-caret-position="224">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
-                <element signature="e#508#767#0" expanded="false" />
-                <element signature="e#804#1368#0" expanded="false" />
-                <element signature="e#1393#1884#0" expanded="false" />
-                <element signature="e#1916#2495#0" expanded="false" />
-                <element signature="e#2810#3419#0" expanded="false" />
+                <element signature="e#790#1049#0" expanded="false" />
+                <element signature="e#1086#1650#0" expanded="false" />
+                <element signature="e#1675#2166#0" expanded="false" />
+                <element signature="e#2198#2777#0" expanded="false" />
+                <element signature="e#3092#3701#0" expanded="false" />
                 <element signature="n#!!block;n#timeCount#0" expanded="false" />
                 <element signature="n#!!block;n#movediv#0" expanded="false" />
                 <element signature="n#!!block;n#slideRight#0" expanded="false" />
-                <element signature="n#!!block;n#rotate#0" expanded="false" />
+                <element signature="n#!!block;n#slideLeft#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -147,9 +152,12 @@
       <file leaf-file-name="jingdong.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/jingdong.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="1063" column="24" lean-forward="false" selection-start-line="1063" selection-start-column="24" selection-end-line="1063" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="324">
+              <caret line="1141" column="16" lean-forward="true" selection-start-line="1141" selection-start-column="16" selection-end-line="1141" selection-end-column="16" />
+              <folding>
+                <element signature="e#20938#21048#0" expanded="false" />
+                <element signature="e#21068#21254#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,6 +192,12 @@
       <find>gly</find>
       <find>fen</find>
       <find>box</find>
+      <find>gray</find>
+      <find>chosen</find>
+      <find>ypzh</find>
+      <find>slide</find>
+      <find>cho</find>
+      <find>ul</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -236,9 +250,9 @@
         <option value="$PROJECT_DIR$/shoppingapp.html" />
         <option value="$PROJECT_DIR$/ourphone.css" />
         <option value="$PROJECT_DIR$/ourPhone.html" />
-        <option value="$PROJECT_DIR$/jingdong.html" />
-        <option value="$PROJECT_DIR$/css/jingdong.css" />
         <option value="$PROJECT_DIR$/js/jingdong.js" />
+        <option value="$PROJECT_DIR$/css/jingdong.css" />
+        <option value="$PROJECT_DIR$/jingdong.html" />
       </list>
     </option>
   </component>
@@ -271,7 +285,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,114 +307,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="picture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPractiseWork1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="picture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jingdong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPractiseWork1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myPractiseWork1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myPractiseWork1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome-4.7.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myPractiseWork1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome-4.7.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myPractiseWork1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome-4.7.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myPractiseWork1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome-4.7.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -547,12 +491,13 @@
       <workItem from="1492879860116" duration="40000" />
       <workItem from="1492913294335" duration="21683000" />
       <workItem from="1492951677894" duration="10621000" />
-      <workItem from="1492995613706" duration="15637000" />
+      <workItem from="1492995613706" duration="15868000" />
+      <workItem from="1493024081413" duration="13197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186735000" />
+    <option name="totallyTimeSpent" value="200163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,9 +510,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2909226" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17261904" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -731,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,18 +698,39 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/jingdong.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#790#1049#0" expanded="false" />
+            <element signature="e#1086#1650#0" expanded="false" />
+            <element signature="e#1675#2166#0" expanded="false" />
+            <element signature="e#2198#2777#0" expanded="false" />
+            <element signature="e#3092#3701#0" expanded="false" />
+            <element signature="n#!!block;n#timeCount#0" expanded="false" />
+            <element signature="n#!!block;n#movediv#0" expanded="false" />
+            <element signature="n#!!block;n#slideRight#0" expanded="false" />
+            <element signature="n#!!block;n#slideLeft#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/jingdong.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="1063" column="24" lean-forward="false" selection-start-line="1063" selection-start-column="24" selection-end-line="1063" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="324">
+          <caret line="1141" column="16" lean-forward="true" selection-start-line="1141" selection-start-column="16" selection-end-line="1141" selection-end-column="16" />
+          <folding>
+            <element signature="e#20938#21048#0" expanded="false" />
+            <element signature="e#21068#21254#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jingdong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1860" column="35" lean-forward="true" selection-start-line="1860" selection-start-column="35" selection-end-line="1860" selection-end-column="35" />
+        <state relative-caret-position="201">
+          <caret line="1953" column="42" lean-forward="false" selection-start-line="1953" selection-start-column="33" selection-end-line="1953" selection-end-column="42" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -776,7 +740,6 @@
             <element signature="n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -787,7 +750,6 @@
             <element signature="n#div#2;n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -819,6 +781,7 @@
             <element signature="n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#li#4;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -833,39 +796,26 @@
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#2;n#div#2;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#4;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#4;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#2;n#div#4;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#a#0;n#div#0;n#div#0;n#div#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#123529#123535#0" expanded="true" />
-            <element signature="e#123535#123541#0" expanded="true" />
-            <element signature="e#123541#123547#0" expanded="true" />
-            <marker date="1493013880892" expanded="false" signature="113169:115164" ph="..." />
-            <marker date="1493013880892" expanded="false" signature="119360:121154" ph="..." />
-            <marker date="1493013880892" expanded="false" signature="121241:123069" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jingdong.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="222" column="10" lean-forward="false" selection-start-line="222" selection-start-column="10" selection-end-line="222" selection-end-column="10" />
-          <folding>
-            <element signature="e#508#767#0" expanded="false" />
-            <element signature="e#804#1368#0" expanded="false" />
-            <element signature="e#1393#1884#0" expanded="false" />
-            <element signature="e#1916#2495#0" expanded="false" />
-            <element signature="e#2810#3419#0" expanded="false" />
-            <element signature="n#!!block;n#timeCount#0" expanded="false" />
-            <element signature="n#!!block;n#movediv#0" expanded="false" />
-            <element signature="n#!!block;n#slideRight#0" expanded="false" />
-            <element signature="n#!!block;n#rotate#0" expanded="false" />
+            <element signature="e#123533#123539#0" expanded="true" />
+            <element signature="e#123539#123545#0" expanded="true" />
+            <element signature="e#123545#123551#0" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
