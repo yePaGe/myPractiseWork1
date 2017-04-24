@@ -1,11 +1,21 @@
 $(function () {
+    //倒计时；
   timeCount();
+
+  //图片轮播
   var duration = 2000;
     rotate(duration);
-   // srollShow();
+
+    //图片左移动；
+    var $quanCon = $(".quanCon");
+    slideLeft($quanCon);
+
+    //图片右移动；
     var $fxhhPhoto = $(".haohuoLi");
    // alert($fxhhPhoto.eq(0).find("p").html());
     slideRight($fxhhPhoto);
+
+    //盒子滚动条移动
    // alert($("#left>li:eq(0)").width());
     var $anouncement = $("#left>li");
     var $pxbPhoto = $(".pxbPhoto>ul>li");
@@ -203,6 +213,20 @@ function slideRight($ele) {
         },function () {
             $(this).find("img").stop().animate({
                 "padding-right":"0"
+            },500)
+        }
+
+    )
+}
+function slideLeft($ele) {
+    $ele.hover(function () {
+        //alert("");
+            $(this).find("img").stop().animate({
+                "margin-right":"0"
+            },500)
+        },function () {
+            $(this).find("img").stop().animate({
+                "margin-right":"15px"
             },500)
         }
 
