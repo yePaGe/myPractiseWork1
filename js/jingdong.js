@@ -12,14 +12,20 @@ $(function () {
         rotate($slideOne,durationOne,$chosenBtnOne);
         rotate($slideTwo,durationTwo,$chosenBtnTwo);
 
- //图片左移动；
+ //图片右移动；
     var $quanCon = $(".quanCon");
-    slideLeft($quanCon);
+    var $pinzhiPic = $(".pinzhiPic>ul>li");
+    var $tuijian = $(".tuijian");
+    var $sheji = $(".sheji");
+    slideRight($quanCon);
+    slideRight($pinzhiPic);
+    slideRight($tuijian);
+    slideRight($sheji);
 
-  //图片右移动；
+  //图片左移动；
     var $fxhhPhoto = $(".haohuoLi");
    // alert($fxhhPhoto.eq(0).find("p").html());
-    slideRight($fxhhPhoto);
+    slideLeft($fxhhPhoto);
 
   //盒子滚动条移动
    // alert($("#left>li:eq(0)").width());
@@ -211,7 +217,7 @@ function movediv($ele) {
 }
 
 
-function slideRight($ele) {
+function slideLeft($ele) {
     $ele.hover(function () {
             $(this).find("img").stop().animate({
                 "padding-right":"10px"
@@ -224,7 +230,7 @@ function slideRight($ele) {
 
     )
 }
-function slideLeft($ele) {
+function slideRight($ele) {
     $ele.hover(function () {
         //alert("");
             $(this).find("img").stop().animate({
