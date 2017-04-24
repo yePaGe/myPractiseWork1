@@ -519,10 +519,9 @@ input:focus{
 .announcement ul li{
     display: block;
     float: left;
-    width: 40px;
-    height: 25px;
-    margin-top: 5px;
-    margin-left:5px;
+    width: 45px;
+    height: 18px;
+    margin: 5px 0;
     text-align: center;
     font-size: 12px;
     cursor: pointer;
@@ -532,14 +531,17 @@ input:focus{
     height: 25px;
     border-bottom: 1px solid rgba(227,228,229,1);
 }
-#move{
+.move0{
+    width: 28px;
+    margin-left: 7px;
+}
+.move{
+
     position: absolute;
     top:22px;
     left: 0;
-    width: 28px;
     background-color: red;
     height: 4px;
-    margin-left: 10px;
 }
 .showthing{
     position: absolute;
@@ -726,7 +728,6 @@ input:focus{
     top:0;
     left: 0;
     margin-top: 10px;
-    border: 1px solid red;
     height: 400px;
 }
 .goodsFenLeiZhanShi .row{
@@ -857,7 +858,7 @@ input:focus{
     display: block;
     background-color: white;
     border: 10px solid #fff;
-    height: 370px;
+    height: 380px;
 }
 .fxhhPhoto{
     margin-right: 5px;
@@ -893,7 +894,7 @@ input:focus{
 .piczhanshi>li{
     padding:5px 0;
     margin: 0 6px;
- float: left!important;
+   float: left!important;
 }
  .pxbPhoto{
      margin-left: 5px;
@@ -947,6 +948,68 @@ input:focus{
 }
 .chooseBtn ul li.chosen{
     background-color: red;
+}
+
+.move1{
+    margin-left: 7px;
+    width: 60px;
+}
+.pxbPhoto>ul>li{
+    float: left;
+    text-align: center;
+    width:20%;
+    border-right:1px solid #ccc ;
+    cursor: pointer;
+}
+.pxbPhoto>ul{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px !important; ;
+}
+.picCon ul li{
+    position: relative;
+    height: 160px;
+    padding: 10px;
+}
+.picCon p{
+    height:40px;
+    overflow: hidden;
+}
+.picCon{
+    position: relative;
+    width: 100%;
+
+}
+.picCon .row{
+    position:absolute;
+    top:0;
+    width: 100%;
+    margin: 0 auto!important;
+}
+.picCon .row .col-xs-4{
+    padding: 0!important;
+    border-right: 1px solid #ccc;
+}
+.picCon .row .col-xs-4 ul{
+    margin: 0;
+}
+.pxbNum{
+    position: absolute;
+    top:0;
+    left: 5px;
+    padding: 1px 10px;
+    width: 40px;
+    height: 50px;
+    font-size: 26px;
+    color: white;
+}
+.pxb1{
+    background: url("picture/jingdong/icon.png") -100px -40px no-repeat ;
+}.pxb2{
+     background: url("picture/jingdong/icon.png")-48px -100px no-repeat ;
+}.pxb3{
+      background: url("picture/jingdong/icon.png")2px -100px no-repeat;
+}.pxb456{
+       background: url("picture/jingdong/icon.png")-97px -100px no-repeat;
 }
 /*footer*/
 footer{

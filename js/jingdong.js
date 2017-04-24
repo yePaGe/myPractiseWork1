@@ -8,7 +8,9 @@ $(function () {
     slideRight($fxhhPhoto);
    // alert($("#left>li:eq(0)").width());
     var $anouncement = $("#left>li");
+    var $pxbPhoto = $(".pxbPhoto>ul>li");
     movediv($anouncement);
+    movediv($pxbPhoto);
 });
 
     $(".mess").on({
@@ -182,13 +184,13 @@ function timeCount() {
 function movediv($ele) {
     $ele.hover(function () {
         var $index = $(this).index();
-        var $width=$(this).width()+10;
+        var $width=$(this).width();
         //alert($index*$width);
      //   alert($(".showthing").index());
-       $("#move").stop().animate({
+       $(this).parent().prev(".move").stop().animate({
             "left":$width*$index+"px"
         });
-        $(".showthing").eq($index).css("display","block").siblings().css("display","none");
+        $(this).parent().next().children(".showthing").eq($index).css("display","block").siblings().css("display","none");
     })
 }
 
@@ -210,8 +212,8 @@ function slideRight($ele) {
  function rotate(duration) {
      var $lTurn = $(".picleftBtn"),
          $rTurn = $(".picrightBtn"),
-         $slide = $(".ypzhjPhoto>div>ul>li"),
-         $ulLength = ($slide.length)/2,
+         $slide = $(".ypzhjshow>ul>li"),
+         $ulLength = $slide.length,
          $chooseBtn = $(".chooseBtn>ul>li"),
          index=0;
         // alert($ulLength);
@@ -230,7 +232,7 @@ function slideRight($ele) {
          if(index<0){
              index=$ulLength-1;
          }
-         //alert(index);
+         alert(index);
          turnTo(index);
      });
      $chooseBtn.each(function () {
@@ -240,8 +242,7 @@ function slideRight($ele) {
          })
      });
      function turnTo(e) {
-         $slide.siblings().css("display","none");
-         $slide.eq(e).css("display","block");
+         $slide.eq(e).css("display","block").siblings().css("display","none");
         // alert(e);
         /* if(e==0){
              $(".ypzhjPhoto>div>ul>li:eq(0)").css("display","block");
