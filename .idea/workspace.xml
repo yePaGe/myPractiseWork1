@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7455e41-f154-4e77-92f6-66fe9beb14c8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/kugou.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/kugou.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kugou.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mytao.js" afterPath="$PROJECT_DIR$/js/mytao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taohome.html" afterPath="$PROJECT_DIR$/taohome.html" />
     </list>
     <ignored path="practise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,34 +32,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="kugou.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kugou.html">
+      <file leaf-file-name="taohome.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taohome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="548">
+              <caret line="250" column="4" lean-forward="true" selection-start-line="250" selection-start-column="4" selection-end-line="250" selection-end-column="4" />
               <folding>
-                <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#1;n#div#0;n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kugou.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/kugou.js">
+      <file leaf-file-name="ourPhone.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ourPhone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kugou.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/kugou.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-1706">
+              <caret line="122" column="22" lean-forward="false" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -158,8 +145,6 @@
         <option value="$PROJECT_DIR$/jingdong.html" />
         <option value="$PROJECT_DIR$/css/jingdong.css" />
         <option value="$PROJECT_DIR$/css/taohome.css" />
-        <option value="$PROJECT_DIR$/taohome.html" />
-        <option value="$PROJECT_DIR$/js/mytao.js" />
         <option value="$PROJECT_DIR$/js/jingdong.js" />
         <option value="$PROJECT_DIR$/ourPhone.html" />
         <option value="$PROJECT_DIR$/css/ourphone.css" />
@@ -167,6 +152,8 @@
         <option value="$PROJECT_DIR$/css/kugouo.css" />
         <option value="$PROJECT_DIR$/css/kugou.css" />
         <option value="$PROJECT_DIR$/kugou.html" />
+        <option value="$PROJECT_DIR$/js/mytao.js" />
+        <option value="$PROJECT_DIR$/taohome.html" />
       </list>
     </option>
   </component>
@@ -198,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,13 +208,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPractiseWork1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -380,11 +381,12 @@
       <workItem from="1493169307522" duration="34000" />
       <workItem from="1493344955379" duration="3893000" />
       <workItem from="1493369328780" duration="5627000" />
+      <workItem from="1493379178703" duration="193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220883000" />
+    <option name="totallyTimeSpent" value="221076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,7 +399,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17261904" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -527,13 +529,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taohome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/taohome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -545,13 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1936">
           <caret line="118" column="24" lean-forward="false" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/mytao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -578,27 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1400">
           <caret line="171" column="37" lean-forward="false" selection-start-line="171" selection-start-column="37" selection-end-line="171" selection-end-column="37" />
-          <folding>
-            <element signature="e#976#1235#0" expanded="false" />
-            <element signature="e#1272#1836#0" expanded="false" />
-            <element signature="e#1861#2352#0" expanded="false" />
-            <element signature="e#2384#2963#0" expanded="false" />
-            <element signature="e#2986#3272#0" expanded="false" />
-            <element signature="e#3278#3887#0" expanded="false" />
-            <element signature="e#3927#4234#0" expanded="false" />
-            <element signature="e#4237#4647#0" expanded="false" />
-            <element signature="n#!!block;n#movediv#0" expanded="false" />
-            <element signature="n#!!block;n#slideLeft#0" expanded="false" />
-            <element signature="n#!!block;n#rotate#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ourPhone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="122" column="22" lean-forward="false" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,15 +573,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/kugouo.css">
+    <entry file="file://$PROJECT_DIR$/css/kugouo.css" />
+    <entry file="file://$PROJECT_DIR$/jingdong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="36120">
+          <caret line="1922" column="98" lean-forward="false" selection-start-line="1922" selection-start-column="98" selection-end-line="1922" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kugou.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#1;n#div#0;n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -634,55 +611,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jingdong.html">
+    <entry file="file://$PROJECT_DIR$/js/mytao.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36120">
-          <caret line="1922" column="98" lean-forward="false" selection-start-line="1922" selection-start-column="98" selection-end-line="1922" selection-end-column="98" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#a#0;n#div#0;n#div#0;n#div#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#a#0;n#div#4;n#div#0;n#div#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="448">
+          <caret line="82" column="102" lean-forward="false" selection-start-line="82" selection-start-column="102" selection-end-line="82" selection-end-column="102" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kugou.html">
+    <entry file="file://$PROJECT_DIR$/ourPhone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="-1706">
+          <caret line="122" column="22" lean-forward="false" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taohome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="250" column="4" lean-forward="true" selection-start-line="250" selection-start-column="4" selection-end-line="250" selection-end-column="4" />
           <folding>
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -80,7 +80,7 @@ $(function () {
             if(b=="离开"){
                 $(".comfWin").hide();
                 $(".loginWin").hide();
-                $(".comfBtn>input").attr("href","http://localhost:63342/practise/work/taohome.html?_ijt=3efnm3shdf4naj8qvup535bhni")
+                $(".comfBtn>input").attr("href","https://yepage.github.io/myPractiseWork1/taohome.html")
             }
             if(b=="返回"){
                 $(".comfWin").hide();
