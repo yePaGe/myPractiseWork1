@@ -169,7 +169,7 @@ $(".haohuoLi").on({
 
 function timeCount() {
     var today = new Date(),
-        lastday = new Date("2017/4/25,20:20:40"),
+        lastday = new Date("2017/4/29,20:20:40"),
         leftTime = parseInt(lastday.getTime()-today.getTime()),
         hour = parseInt(leftTime/1000/60/60),
         minute = parseInt(leftTime/1000/60%60),
@@ -199,6 +199,12 @@ function timeCount() {
     // console.log(ml);
     // console.log(sl);
     //alert();
+    if(leftTime<0){
+        $(".mshaClock p").empty().html("当前场次已结束抢购！");
+        $(".mshaClock p").css("font-size","16px");
+        $(".mshaClock p").css("color","#fff");
+        $(".mshaClock p").css("margin-top","10px");
+    }
     setTimeout(timeCount,1000);
 }
 

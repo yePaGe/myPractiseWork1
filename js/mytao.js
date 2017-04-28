@@ -17,10 +17,10 @@ $(function () {
         event.stopPropagation();
     });
     $(".accounterInput:eq(0)").click(function () {
-        $(".acc1").attr("src","../work/picture/account1.png")
+        $(".acc1").attr("src","picture/account1.png")
     });
     $(".accounterInput:eq(1)").click(function () {
-        $(".pass1").attr("src","../work/picture/lock1.png")
+        $(".pass1").attr("src","picture/lock1.png")
     });
 
     $(".acc").click(function () {
@@ -42,7 +42,7 @@ $(function () {
             $(".alertWin").css("display","-webkit-flex");
             $(".alertMess").html("帐号的字符数不能超过10个！");
         }
-        $(this).prev().attr("src","../work/picture/account.png");
+        $(this).prev().attr("src","picture/account.png");
         $(this).parents(".accounter").css("border-color","rgba(240,240,240,1)");
             });
 
@@ -50,7 +50,7 @@ $(function () {
     //密码框失去焦点时动态效果；
     $(".accounterInput:eq(1)").blur(function () {
        var m = getString(this.value,this.value[0]);
-        $(this).prev().attr("src","../work/picture/lock.png");
+        $(this).prev().attr("src","picture/lock.png");
         $(this).parents(".accounter").css("border-color","rgba(240,240,240,1)");
       if(m == this.value.length){
            $(".alertWin").css("display","-webkit-flex");

@@ -134,6 +134,16 @@ header{
     line-height: 150%;
     border: none;
     background-color:  rgba(249,140,90,1);
+
+}
+.searchText::-webkit-input-placeholder{
+    font-size: 14px;
+}.searchText:-moz-placeholder{
+    font-size: 14px;
+}.searchText::-moz-placeholder{
+    font-size: 14px;
+}.searchText:-ms-input-placeholder{
+    font-size: 14px;
 }
 .i{
     position: absolute;

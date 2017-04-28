@@ -31,12 +31,26 @@ body{
     margin-bottom: 20px;
 }
 .carousel .item{
-    height: 360px;
     background-color: #000;
 }
 .carousel .item img{
     z-index: 0;
     width: 100%;
+}
+.moveLeft{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: block;
+    margin: auto 0;
+    height: 30px;
+}.moveRight{
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     display: block;
+     margin: auto 0;
+     height: 30px;
 }
 .img-responsive{
     margin: 0 auto;
