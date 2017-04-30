@@ -3,11 +3,11 @@ $(function () {
   timeCount();
 
   //图片轮播
-  var durationOne = 2000,
-      $slideOne = $(".ypzhjshow>ul>li"),
+  var durationOne = 4000,
+      $slideOne = $(".ypzhjshow"),
       $chosenBtnOne= $(".chooseBtnOne>ul>li");
-  var durationTwo = 2000,
-      $slideTwo = $(".zhiboshow>ul>li"),
+  var durationTwo = 3000,
+      $slideTwo = $(".zhiboShow0"),
       $chosenBtnTwo= $(".chooseBtnTwo>ul>li");
         rotate($slideOne,durationOne,$chosenBtnOne);
         rotate($slideTwo,durationTwo,$chosenBtnTwo);
@@ -252,9 +252,10 @@ function slideRight($ele) {
 }
 
  function rotate($slide,duration,$chooseBtn) {
-     var $lTurn = $(".picleftBtn"),
-         $rTurn = $(".picrightBtn"),
-         $ulLength = $slide.length-1,
+     var $lTurn = $slide.find(".picleftBtn"),
+         $rTurn = $slide.find(".picrightBtn"),
+         $slideList = $slide.find(".picShow"),
+         $ulLength = $slideList.length-1,
          index=0;
         //alert($ulLength);
        //$slide.get(1).css("display","block");
@@ -282,7 +283,7 @@ function slideRight($ele) {
          })
      });
      function turnTo(e) {
-         $slide.eq(e).css("display","block").siblings().css("display","none");
+         $slideList.eq(e).css("display","block").siblings().css("display","none");
         // alert(e);
         /* if(e==0){
              $(".ypzhjPhoto>div>ul>li:eq(0)").css("display","block");
@@ -307,6 +308,7 @@ function slideRight($ele) {
      stopTimer($lTurn);
      stopTimer($rTurn);
      stopTimer($chooseBtn);
+     stopTimer($slideList);
 
      function stopTimer($ele) {
          $ele.hover(function () {
