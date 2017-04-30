@@ -44,7 +44,7 @@ $(function () {
     $(".searchText").click(function () {
         $("#searchWin").animate({
             left:"0"
-        },1000);
+        },1000).show();
     });
     $(".back").click(function () {
         $(".searchText0").val("");
@@ -52,7 +52,7 @@ $(function () {
         var $docWidth = $(document).width();
         $("#searchWin").animate({
             left:$docWidth+"px"
-        },1000);
+        },1000).hide();
     });
 
 });
