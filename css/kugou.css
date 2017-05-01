@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(246,246,246,1);
+    z-index: 10;
+}
+li{
+    list-style: none;
+}
+a{
+    text-underline: none;
+    font-family: " 黑体";
+}
+p{
+    color: #000000;
+    font-family: " 黑体";
+}
+
+/*nav*/
+nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(40,40,40,1);
+    z-index: 20;
+    border: none;
+}
+.navList{
+    position:relative;
+    top:0;
+}
+
+.navCenter{
+    float: left;
+    width: 50%;
+}
+.navCenter ul{
+    margin: 0!important;
+}
+.navCenter li{
+    float: left;
+    margin: 0 auto;
+    width: 32%;
+    display: block;
+    padding: 6px 6px;
+    font-size:0.5rem;
+    text-align: center;
+}
+.navCenter li a{
+    color: #ffffff!important;
+
+}
+.navBeside{
+    float: left;
+    width: 25%;
+}
+.navBeside p{
+    padding-left: 10px;
+    padding-top: 6px;
+    color: #fff!important;
+    font-family: "宋体"!important;
+    font-size:0.5rem;
+}
+.topPic{
+    position:relative;
+    top:0;
+    left: 0;
+    right: 0;
+    display: block;
+    margin-top: 0.7rem;
+    width: 100%;
+}
+.topPic img{
+    width: 100%;
+}
+.mycar{
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: rgba(255,255,255,1);
+    border-bottom: 1px rgba(227,227,227,1) solid;
+    border-right:  1px rgba(255,255,255,1) solid;;
+}
+.mycar img{
+    width: 0.6rem;
+    height: 0.6rem;
+    float: left;
+    margin: 12px 10px 5px 15px;
+}
+.mycar .tutopMess{
+    float: left;
+    width: 100px;
+    padding-top: 12px;
+    font-size:0.4rem;
+
+}
+.go{
+    float: right;
+    padding-right: 10px;
+    padding-top: 12px;
+    font-family: "宋体"!important;
+    font-size: 0.4rem;
+}
+/*article*/
+.carchoose{
+    width: 100%;
+}.carchoose .row{
+    margin: 0 2px 5px 0!important;
+}
+.carchoose .col-xs-4{
+    position: relative;
+    padding: 0!important;
+}
+.carchoose .col-xs-4 li{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 2px;
+    margin-left: 2px;
+    border: 1px solid rgba(227,227,227,1);
+    background-color: rgba(255,255,255,1);
+}
+.carchoose .topRight{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 50%;
+
+}
+.carchoose .topRight p{
+    text-align: center;
+    font-size:0.03rem;
+    height:1rem;
+    padding-top: 3px;
+    padding-bottom:3px ;
+    margin: 0 auto;
+    color: #fff;
+}
+.carchoose .greenIcon{
+    background: url("picture/kugou/greenicon.png") 0 0 no-repeat;
+    background-size: 100%;
+}.carchoose .redIcon{
+    background: url("picture/kugou/redicon.png") 0 0 no-repeat;
+    background-size: 100%;
+}
+.carchoose img{
+    margin : 0.8rem 0.3rem;
+    width: 80%;
+}
+.starMess{
+    text-align: center;
+    margin: 0 0.4rem;
+}
+.starMess img{
+    width: 0.4rem;
+    height: 0.4rem;
+    float: left;
+    margin: 0.05rem ;
+}
+.starMess p{
+    font-size: 0.2rem;
+    color: rgba(255,152,0,1);
+}
+.buy{
+    border: 2px solid rgba(3,204,118,1);
+    border-radius: 5px;
+    width: 55%;
+    padding:2px 5px;
+    font-size: 0.25rem;
+    text-align: center;
+    margin: 3px auto;
+    color: rgba(3,204,118,1);
+}
