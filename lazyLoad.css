@@ -1,0 +1,227 @@
+.section1{
+    position: relative;
+    background: url("picture/sky.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.section2{
+    position: relative;
+    background: url("picture/mountain.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.section3{
+    position: relative;
+    background:rgba(242,242,234,1);
+}
+
+.jianli{
+    position: absolute;
+    top:-300px;
+    left: 40%;
+    width: 300px;
+    height: 200px;
+    background:url("picture/icon1.png") 0 0 no-repeat;
+    background-size: 200% 200%;
+}
+.jianlimove{
+    position: absolute;
+    right: -400px;
+    width: 300px;
+    height: 200px;
+    background:url("picture/icon1.png") 0 0 no-repeat;
+    background-size: 200% 200%;
+}
+
+.myphoto{
+    position: absolute;
+    top:45%;
+    left: 30%;
+    width: 0;
+    height: 200px;
+    padding: 10px;
+    border:3px solid rgba(143,86,216,1);
+    border-radius: 9px;
+}
+.baseMess{
+    position: absolute;
+    top: 35%;
+    left:45%;
+    width: 450px;
+    height: 300px;
+    padding: 70px 0 0 160px;
+    font-size: large;
+    background: url(picture/icon1.png) -500px -320px no-repeat;
+    background-size: 210% 210%;
+    color: rgba(143,86,216,1);
+}
+.baseMess h1{
+    text-align: right;
+    padding-right:100px ;
+    margin-bottom:0!important; ;
+}
+
+.slidedown{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 55px;
+    margin: 0 auto;
+    display: block;
+}
+.slidedown i{
+    color:  rgba(143,86,216,1)!important;
+    cursor: pointer;
+}
+.clouds{
+    position: absolute;
+    bottom:0;
+    width: 150px;
+    z-index: 80;
+    height: 100px;
+    display: block;
+    float: left;
+    padding-left: 30px;
+    padding-top: 55px;
+    font-size: large;
+    background: url(picture/icon1.png) -170px -105px no-repeat;
+    background-size: 200% 200%;
+    cursor: default;
+}
+.clouds a{
+    color: rgba(143,86,216,1)!important;
+
+}
+.clouds1_1{
+    left: 5%;
+}.clouds1_2{
+     left: 30%;
+ }.clouds1_3{
+      left:57%;
+  }.clouds1_4{
+       left:80%;
+   }
+.clouds3_4{
+    left:80%;
+    top:0;
+}
+.am-paragraph-table-container{
+    background: none!important;
+}
+
+.mess{
+    width: 300px;
+    padding: 20px 40px;
+    margin: 150px auto;
+    display:none;
+    color: rgba(143,86,216,1)!important;
+    background-color: rgba(160,215,231,1);
+    border-radius: 9px;
+}
+.mess3 p{
+    margin: 10px 5px;
+}
+
+#title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:1000px;
+    margin:auto;
+    display: block;
+}
+#title p{
+    font-size:80px;
+    font-family: "汉真广标";
+    color:  rgba(143,86,216,1);
+    text-align:left;
+    margin-left:170px ;
+}
+.jianli3{
+    position: absolute;
+    top:50px;
+    right: 50px;
+    width: 300px;
+    height: 200px;
+    background:url("picture/icon1.png") 0 0 no-repeat;
+    background-size: 200% 200%;
+}
+.pictureShow{
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    display: block;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.pic{
+
+    top: 0;
+    border: 3px solid rgba(143,86,216,1);
+    padding: 10px;
+    border-radius: 9px;
+    background-color: rgba(242,242,234,1);
+}
+.pic1{
+    position: relative;
+    left: 50px;
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+
+}
+.pic2{
+    position: relative;
+    top: -50px;
+    left:-100px;
+
+}
+.pic3{
+    position: relative;
+    left:-200px;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.pic4{
+    position: relative;
+    top:-30px;
+    left: 0;
+}.pic5{
+     position:absolute;
+     top: 60px;
+     left:70px;
+ }.pic6{
+      position: absolute;
+      top:140px;
+      left:150px;
+  }
+.pic7{
+    position: relative;
+    top:0;
+    left: 0;
+}
+.pic8{
+    position: absolute;
+    top: 0;
+    left: 300px;
+}.pic9{
+     position: absolute;
+     top: 200px;
+     left: 300px;
+ }
+.workMess{
+    position:relative;
+    top: 150px;
+    right: 0;
+    margin-right: 60px;
+    float: right;
+}
+.workMess h3{
+    margin: 5px 0;
+    text-align: left;
+}
+.workMess p{
+    margin:0;
+    margin-left: 5px!important;
+    text-align: left;
+
+}
