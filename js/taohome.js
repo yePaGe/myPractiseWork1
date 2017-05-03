@@ -43,16 +43,18 @@ $(function () {
 
     $(".searchText").click(function () {
         $("#searchWin").animate({
-            left:"0"
-        },1000);
+            left:"0",
+            opacity:"1"
+        },1000).show();
     });
     $(".back").click(function () {
         $(".searchText0").val("");
         $(".searchText0").attr("placeholder","请输入你想找的宝贝");
         var $docWidth = $(document).width();
         $("#searchWin").animate({
-            left:$docWidth+"px"
-        },1000);
+            left:$docWidth+"px",
+            opacity:"0"
+        },1000).hide();
     });
 
 });

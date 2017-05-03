@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7455e41-f154-4e77-92f6-66fe9beb14c8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/kugou.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/kugou.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kugou.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/taohome.css" afterPath="$PROJECT_DIR$/css/taohome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/taohome.js" afterPath="$PROJECT_DIR$/js/taohome.js" />
     </list>
     <ignored path="practise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,34 +33,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="kugou.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kugou.html">
+      <file leaf-file-name="taohome.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/taohome.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-              <folding>
-                <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#1;n#div#0;n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kugou.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/kugou.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="406">
+              <caret line="479" column="14" lean-forward="false" selection-start-line="479" selection-start-column="14" selection-end-line="479" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kugou.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/kugou.css">
+      <file leaf-file-name="taohome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taohome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="308">
+              <caret line="17" column="63" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="17" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taohome.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/taohome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -73,16 +69,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>flz</find>
-      <find>ROW</find>
       <find>haoh</find>
       <find>chev</find>
       <find>yp</find>
@@ -108,6 +102,11 @@
       <find>gly</find>
       <find>it</find>
       <find>fa-</find>
+      <find>win</find>
+      <find>zhibo</find>
+      <find>YPZ</find>
+      <find>zhib</find>
+      <find>pic1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,20 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/360搜索框向下滚动顶端固定.html" />
-        <option value="$PROJECT_DIR$/css/zhuyephone.css" />
-        <option value="$PROJECT_DIR$/css/zhuyephone.html" />
-        <option value="$PROJECT_DIR$/phone360zhuye.html" />
-        <option value="$PROJECT_DIR$/css/phone360zhuye.css" />
-        <option value="$PROJECT_DIR$/css/360scrollAndFixed.css" />
-        <option value="$PROJECT_DIR$/360scrollAndFixed.html" />
-        <option value="$PROJECT_DIR$/css/taobaophone.html" />
-        <option value="$PROJECT_DIR$/css/360zhuye.css" />
-        <option value="$PROJECT_DIR$/360zhuye.html" />
-        <option value="$PROJECT_DIR$/javascript/taobaophone.js" />
-        <option value="$PROJECT_DIR$/css/taobaophone.css" />
-        <option value="$PROJECT_DIR$/taobaophone.html" />
-        <option value="$PROJECT_DIR$/js/taobaophone.js" />
         <option value="$PROJECT_DIR$/JS5.html" />
         <option value="$PROJECT_DIR$/JS6.html" />
         <option value="$PROJECT_DIR$/js7.html" />
@@ -155,18 +140,32 @@
         <option value="$PROJECT_DIR$/browserMuseum.html" />
         <option value="$PROJECT_DIR$/shoppingapp.html" />
         <option value="$PROJECT_DIR$/ourphone.css" />
-        <option value="$PROJECT_DIR$/jingdong.html" />
         <option value="$PROJECT_DIR$/css/jingdong.css" />
-        <option value="$PROJECT_DIR$/css/taohome.css" />
-        <option value="$PROJECT_DIR$/taohome.html" />
-        <option value="$PROJECT_DIR$/js/mytao.js" />
-        <option value="$PROJECT_DIR$/js/jingdong.js" />
-        <option value="$PROJECT_DIR$/ourPhone.html" />
-        <option value="$PROJECT_DIR$/css/ourphone.css" />
         <option value="$PROJECT_DIR$/js/kugou.js" />
         <option value="$PROJECT_DIR$/css/kugouo.css" />
-        <option value="$PROJECT_DIR$/css/kugou.css" />
+        <option value="$PROJECT_DIR$/js/mytao.js" />
+        <option value="$PROJECT_DIR$/taohome.html" />
+        <option value="$PROJECT_DIR$/js/jingdong.js" />
+        <option value="$PROJECT_DIR$/jingdong.html" />
+        <option value="$PROJECT_DIR$/js/lazyLoadTest.html" />
+        <option value="$PROJECT_DIR$/lazyLoad.css" />
+        <option value="$PROJECT_DIR$/lazyLoadTest.html" />
         <option value="$PROJECT_DIR$/kugou.html" />
+        <option value="$PROJECT_DIR$/css/kugou.css" />
+        <option value="$PROJECT_DIR$/canvas.js" />
+        <option value="$PROJECT_DIR$/js/canvas.js" />
+        <option value="$PROJECT_DIR$/canvas.html" />
+        <option value="$PROJECT_DIR$/css/ourphone.css" />
+        <option value="$PROJECT_DIR$/css/font-awesome-4.7.0/css/lazyLoad.css" />
+        <option value="$PROJECT_DIR$/css/lazyLoad.css" />
+        <option value="$PROJECT_DIR$/css/logIn.js" />
+        <option value="$PROJECT_DIR$/js/logIn.js" />
+        <option value="$PROJECT_DIR$/loginIn.html" />
+        <option value="$PROJECT_DIR$/ourPhone.html" />
+        <option value="$PROJECT_DIR$/js/ourhome.js" />
+        <option value="F:/yePaGe.github.io/index.html" />
+        <option value="$PROJECT_DIR$/css/taohome.css" />
+        <option value="$PROJECT_DIR$/js/taohome.js" />
       </list>
     </option>
   </component>
@@ -198,6 +197,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,18 +221,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPractiseWork1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPractiseWork1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font-awesome-4.7.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPractiseWork1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font-awesome-4.7.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font-awesome.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="F:/yePaGe.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/taohome.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -242,14 +299,17 @@
     <property name="js-jscs-nodeInterpreter" value="D:\Node.js-v4.4.2\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\myPractiseWork1\js" />
+      <recent name="F:\myPractiseWork1\css" />
+      <recent name="F:\myPractiseWork1\css\font-awesome-4.7.0\css" />
+      <recent name="F:\myPractiseWork1" />
+      <recent name="F:\practise\work\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\practise\work" />
       <recent name="E:\practise" />
       <recent name="E:\practise\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\practise\work\css" />
-      <recent name="E:\practise" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,11 +440,19 @@
       <workItem from="1493169307522" duration="34000" />
       <workItem from="1493344955379" duration="3893000" />
       <workItem from="1493369328780" duration="5627000" />
+      <workItem from="1493379178703" duration="268000" />
+      <workItem from="1493426161418" duration="857000" />
+      <workItem from="1493514630315" duration="3442000" />
+      <workItem from="1493597185431" duration="9443000" />
+      <workItem from="1493781158613" duration="16560000" />
+      <workItem from="1493803351275" duration="10365000" />
+      <workItem from="1493813814837" duration="221000" />
+      <workItem from="1493814321480" duration="162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220883000" />
+    <option name="totallyTimeSpent" value="262201000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,9 +465,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17261904" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.265625" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -434,39 +502,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/phone360zhuye.css" />
-    <entry file="file://$PROJECT_DIR$/phone360zhuye.html" />
-    <entry file="file://$PROJECT_DIR$/360scrollAndFixed.html" />
-    <entry file="file://$PROJECT_DIR$/css/360scrollAndFixed.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/360zhuye.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/taobaophone.css" />
-    <entry file="file://$PROJECT_DIR$/taobaophone.html" />
-    <entry file="file://$PROJECT_DIR$/JS5.html" />
-    <entry file="file://$PROJECT_DIR$/JS6.html" />
     <entry file="file://$PROJECT_DIR$/changingpage.html" />
     <entry file="file://$PROJECT_DIR$/js7.html" />
     <entry file="file://$PROJECT_DIR$/js8.html" />
@@ -508,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/taohome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -527,31 +560,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taohome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/taohome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="142" column="21" lean-forward="false" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/mytao.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1936">
           <caret line="118" column="24" lean-forward="false" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/mytao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -574,47 +586,32 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/kugouo.css" />
+    <entry file="file://$PROJECT_DIR$/js/mytao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="82" column="102" lean-forward="false" selection-start-line="82" selection-start-column="102" selection-end-line="82" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/jingdong.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="171" column="37" lean-forward="false" selection-start-line="171" selection-start-column="37" selection-end-line="171" selection-end-column="37" />
-          <folding>
-            <element signature="e#976#1235#0" expanded="false" />
-            <element signature="e#1272#1836#0" expanded="false" />
-            <element signature="e#1861#2352#0" expanded="false" />
-            <element signature="e#2384#2963#0" expanded="false" />
-            <element signature="e#2986#3272#0" expanded="false" />
-            <element signature="e#3278#3887#0" expanded="false" />
-            <element signature="e#3927#4234#0" expanded="false" />
-            <element signature="e#4237#4647#0" expanded="false" />
-            <element signature="n#!!block;n#movediv#0" expanded="false" />
-            <element signature="n#!!block;n#slideLeft#0" expanded="false" />
-            <element signature="n#!!block;n#rotate#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ourPhone.html">
+    <entry file="file://$PROJECT_DIR$/jingdong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="122" column="22" lean-forward="false" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="53760">
+          <caret line="1971" column="41" lean-forward="true" selection-start-line="1971" selection-start-column="41" selection-end-line="1971" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/ourphone.css">
+    <entry file="file://$PROJECT_DIR$/lazyLoadTest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/kugouo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="492">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -622,68 +619,122 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/kugou.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jingdong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36120">
-          <caret line="1922" column="98" lean-forward="false" selection-start-line="1922" selection-start-column="98" selection-end-line="1922" selection-end-column="98" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#2;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#1;n#div#2;n#div#0;n#div#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#a#0;n#div#0;n#div#0;n#div#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#a#0;n#div#4;n#div#0;n#div#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="248">
+          <caret line="176" column="17" lean-forward="false" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kugou.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding>
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="25">
+          <caret line="117" column="41" lean-forward="false" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="129" column="21" lean-forward="true" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ourphone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/lazyLoad.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/work/js/aj-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/work/angularjs-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1800">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/logIn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="61" column="72" lean-forward="true" selection-start-line="61" selection-start-column="72" selection-end-line="61" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ourhome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ourPhone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="169" column="20" lean-forward="true" selection-start-line="169" selection-start-column="20" selection-end-line="169" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/yePaGe.github.io/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/taohome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="479" column="14" lean-forward="false" selection-start-line="479" selection-start-column="14" selection-end-line="479" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taohome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="63" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="17" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/taohome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

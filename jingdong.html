@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jingdong.js"></script>
+
 </head>
 <body >
 <!--浮动搜索框-->
@@ -1658,7 +1660,7 @@
                 <div class="ypzhjPhoto flzhshPhoto">
                     <div class="ypzhjshow " style="width: 1200px;height: 370px">
                         <i class="fa fa-chevron-left picleftBtn"></i> <ul>
-                            <li id="slide1"  >
+                            <li class="picShow" id="slide1"  >
                                 <ul class="slide">
                                 <li><p>出差不失联，4千以上毫安电量手机推荐</p></li>
                                 <li><ul class="piczhanshi">
@@ -1676,7 +1678,7 @@
                                 </ul></li><div style="clear: both"></div>
                             </ul>
                             </li>
-                            <li id="slide2" >
+                            <li class="picShow" id="slide2" >
                                 <ul class="slide">
                                 <li><p>长T恤大玩下装消失法，瞬间拥有大长腿</p></li>
                                 <li><ul class="piczhanshi">
@@ -1694,7 +1696,7 @@
                                 </ul></li><div style="clear: both"></div>
                             </ul>
                             </li>
-                            <li id="slide3">
+                            <li class="picShow" id="slide3">
                                 <ul class="slide">
                                 <li><p>男生魅力T-shirt，让你帅遍夏日</p></li>
                                 <li><ul class="piczhanshi">
@@ -1945,13 +1947,16 @@
                 </ul></div>
                 <div class="col-xs-4 zhiboPhoto">
                     <div style="width: 398px"><div class="zhiboshow">
+                        <div class="zhiboShow0">
                             <i class="fa fa-chevron-left picleftBtn picleftBtnTwo"></i> <ul>
-                            <li id="zhibo1"><a href=""><img src="picture/jingdong/zhibo1.png"></a></li>
-                            <li id="zhibo2"><a href=""><img src="picture/jingdong/zhibo2.jpg"></a></li>
-                            <li id="zhibo3"><a href=""><img src="picture/jingdong/zhibo3.jpg"></a></li>
-                            <li id="zhibo4"><a href=""><img src="picture/jingdong/zhibo4.jpg"></a></li>
-                            <li id="zhibo5"><a href=""><img src="picture/jingdong/zhibo5.jpg"></a></li>
+                            <li id="zhibo1" class="picShow"><a href=""><img src="picture/jingdong/zhibo1.png"></a></li>
+                            <li id="zhibo2" class="picShow"><a href=""><img src="picture/jingdong/zhibo2.jpg"></a></li>
+                            <li id="zhibo3" class="picShow"><a href=""><img src="picture/jingdong/zhibo3.jpg"></a></li>
+                            <li id="zhibo4" class="picShow"><a href=""><img src="picture/jingdong/zhibo4.jpg"></a></li>
+                            <li id="zhibo5" class="picShow"><a href=""><img src="picture/jingdong/zhibo5.jpg"></a></li>
                         </ul><i class="fa fa-chevron-right picrightBtn"></i>
+                        </div>
+
 
                         <div class="chooseBtnTwo">
                             <ul><li class="chosen"><a href="#zhibo1"></a></li>
@@ -1962,7 +1967,6 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="graybground"><span class="fa fa-caret-square-o-right fa-4x play"></span></div>
                     <div>
                         <div class="tuijian"><a href=""><div class="pinzhiMess0" style="background-color:rgba(66,39,80,0.7)">
                         <ul><li class="pzhiMess3"><h4>全球尖货</h4></li><li class="pzhiMess4"> 全球自营好货</li></ul></div>
@@ -2116,11 +2120,10 @@
 
 
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jingdong.js"></script>
+<!--[if lt IE 9]>
+<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
 </body>
 

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>openComputer</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/canvas.js"></script>
+    <script>
+        $(function () {
+
+            setTimeout(function (){
+                $(".ddd").animate({
+                    opacity:"0"
+                },2000);
+            },4500);
+        })
+    </script>
+    <style>
+        #canvas{
+            position: relative;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: block;
+            margin: 0 auto;
+        }
+        #canvas1{
+            position: relative;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: block;
+            margin: 0 auto;
+        }
+        .rec{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transform: rotateY(30deg);
+            -webkit-transform: rotateY(30deg);
+            -ms-transform: rotateY(30deg);
+        }
+       .ddd{
+           background-color: #fff;
+           width: 100%;
+           min-height: 700px;
+           display: block;
+           overflow: hidden;
+        }
+
+      @keyframes myfirst
+        {
+            0%   { opacity: 0;}
+            50% {opacity: 0.5;}
+            100% {transform:perspective(600px)  rotateX(0deg) skew(0,0);
+                   background-color: #5bc;
+                   opacity: 1;}
+        }
+        @-moz-keyframes myfirst /* Firefox */
+        {
+            0%   { opacity: 0;}
+            50% {opacity: 0.5;}
+            100% {-moz-transform:perspective(600px)  rotateX(0deg)  skew(0,0);
+                   background-color: #5bc;
+                   opacity: 1;}
+        }
+
+        @-webkit-keyframes myfirst /* Safari and Chrome */
+        {
+            0% {opacity: 0; }
+            50% {opacity: 0.5;}
+            100% {-webkit-transform:perspective(600px)  rotateX(0deg)  skew(0,0);
+                  background-color: #5bc;
+                  opacity: 1;}
+        }
+
+        @-o-keyframes myfirst /* Opera */
+        {
+            0%  { opacity: 0;}
+            50% {opacity: 0.5;}
+            100% {-o-transform:perspective(600px)  rotateX(0deg)  skew(0,0);
+                    background-color: #5bc;
+                    opacity: 1;}
+        }
+        .wrap1,.wrap2,.wrap3,.wrap4,.wrap5{
+            transform:perspective(900px) rotateX(-120deg) skew(30deg,0);
+            -webkit-transform:perspective(900px) rotateX(-120deg) skew(30deg,0);
+            -o-transform:perspective(900px) rotateX(-120deg) skew(30deg,0);
+            -moz-transform:perspective(900px) rotateX(-120deg)  skew(30deg,0);
+            transform-origin: 100% 100%;
+            opacity:0;
+            width: 150px;
+            height: 100px;
+            border-radius: 10px;
+            background-color: #256;
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            margin: 200px auto;
+            animation: myfirst 3s  ease-in-out;
+            -webkit-animation: myfirst 3s  ease-in-out;
+            -o-animation: myfirst 3s  ease-in-out;
+            -moz-animation: myfirst 3s  ease-in-out;
+        }
+        .wrap2{
+            animation-delay: 0.5s;
+        }
+        .wrap3{
+            animation-delay: 0.9s;
+        }
+        .wrap4{
+            animation-delay: 1.5s;
+        }
+        .wrap5{
+            animation-delay: 2.0s;
+        }
+
+    </style>
+</head>
+<body>
+<!--
+<canvas id="canvas" width="300px" height="200px">当前浏览器不支持Canvas，请更换浏览器！</canvas>
+<canvas id="canvas1" width="500px" height="200px">当前浏览器不支持Canvas，请更换浏览器！</canvas>
+-->
+<div class="ddd">
+    <div class="wrap1">welcome!</div>
+    <div class="wrap2">welcome!</div>
+    <div class="wrap3">welcome!</div>
+    <div class="wrap4">welcome!</div>
+    <div class="wrap5">welcome!</div>
+</div>
+
+
+</body>
+</html>
