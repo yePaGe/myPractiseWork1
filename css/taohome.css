@@ -172,6 +172,7 @@ header{
     position: relative;
     width: 400%;
     height:100%;
+    overflow:hidden;
 
 
 }
