@@ -159,11 +159,12 @@ header{
     left: 0;
     display: block;
     width: 100%;
+    overflow: hidden;
 
 }
 .slidePic{
     margin-top: 45px;
-    width:100%;
+    width:100%!important;
     height: 3.125rem;
     display: block;
     overflow:hidden;
@@ -235,6 +236,7 @@ header{
     position: relative;
     top:0;
     left: 0;
+    overflow: hidden;
 }
 /*nav*/
 .navl{
@@ -302,6 +304,7 @@ header{
     margin: auto;
 }
 .hpic img{
+    position: absolute;
     width: 90%;
     height: 90%;
 }
@@ -476,7 +479,6 @@ footer{
     right: 0;
     top: 0;
     overflow: hidden;
-    width:100%;
     height: 100%;
     opacity: 0;
     background-color: #efeeee;

@@ -42,10 +42,12 @@ $(function () {
         });
 
     $(".searchText").click(function () {
+        var $docWidth = $(document).width();
         $("#searchWin").animate({
             left:"0",
+            width:$docWidth+"px",
             opacity:"1"
-        },1000).show();
+        },1000);
     });
     $(".back").click(function () {
         $(".searchText0").val("");
@@ -53,8 +55,9 @@ $(function () {
         var $docWidth = $(document).width();
         $("#searchWin").animate({
             left:$docWidth+"px",
+            width:"0",
             opacity:"0"
-        },1000).hide();
+        },1000);
     });
 
 });

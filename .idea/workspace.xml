@@ -4,6 +4,7 @@
     <list default="true" id="f7455e41-f154-4e77-92f6-66fe9beb14c8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/taohome.css" afterPath="$PROJECT_DIR$/css/taohome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/taohome.js" afterPath="$PROJECT_DIR$/js/taohome.js" />
     </list>
     <ignored path="practise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +36,28 @@
       <file leaf-file-name="taohome.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/taohome.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+            <state relative-caret-position="318">
+              <caret line="481" column="0" lean-forward="false" selection-start-line="481" selection-start-column="0" selection-end-line="481" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taohome.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/taohome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taohome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taohome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="23" column="75" lean-forward="false" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -56,7 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>chev</find>
       <find>yp</find>
       <find>left</find>
       <find>ann</find>
@@ -75,7 +95,6 @@
       <find>cho</find>
       <find>ul</find>
       <find>sea</find>
-      <find>pic</find>
       <find>..</find>
       <find>gly</find>
       <find>it</find>
@@ -86,6 +105,8 @@
       <find>zhib</find>
       <find>pic1</find>
       <find>sli</find>
+      <find>pic</find>
+      <find>sear</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,8 +163,8 @@
         <option value="$PROJECT_DIR$/ourPhone.html" />
         <option value="$PROJECT_DIR$/js/ourhome.js" />
         <option value="F:/yePaGe.github.io/index.html" />
-        <option value="$PROJECT_DIR$/js/taohome.js" />
         <option value="F:/yePaGe.github.io/css/qiuzhi.css" />
+        <option value="$PROJECT_DIR$/js/taohome.js" />
         <option value="$PROJECT_DIR$/css/taohome.css" />
       </list>
     </option>
@@ -429,11 +450,12 @@
       <workItem from="1493814321480" duration="204000" />
       <workItem from="1493815272720" duration="131000" />
       <workItem from="1493823290498" duration="1012000" />
+      <workItem from="1493825856345" duration="1655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263386000" />
+    <option name="totallyTimeSpent" value="265041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,7 +468,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15848215" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -697,30 +719,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1025">
           <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taohome.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="23" column="75" lean-forward="true" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+          <caret line="23" column="75" lean-forward="false" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/taohome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+        <state relative-caret-position="175">
+          <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/taohome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+        <state relative-caret-position="318">
+          <caret line="481" column="0" lean-forward="false" selection-start-line="481" selection-start-column="0" selection-end-line="481" selection-end-column="0" />
           <folding />
         </state>
       </provider>
